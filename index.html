@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BMMA Student Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Optional: Smooth transition for hover on links */
+    a {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    a:hover {
+      transform: translateY(-2px);
+    }
+
+  </style>
+</head>
+<body class="bg-blue-50 text-gray-900 font-sans">
+
+  <!-- Header with Profile Picture -->
+  <header id="patrick" class="bg-blue-900 text-white py-12 px-6 text-center shadow-xl rounded-b-3xl">
+    <div class="max-w-3xl mx-auto">
+      <img src="../patrick.jpg" alt="Profile Picture"
+           class="w-36 h-36 mx-auto rounded-full border-8 border-white shadow-2xl object-cover mb-6 transition-transform duration-300 hover:scale-105">
+      
+      <h1 class="text-5xl font-extrabold leading-tight tracking-wide drop-shadow-lg">James Patrick Ribano</h1>
+      <p class="text-xl mt-3 font-light tracking-wide">Creativity. Passion. Multimedia in Action.</p>
+    </div>
+  </header>
+  
+  <!-- Navigation -->
+  <nav class="bg-blue-800 text-white py-4 shadow-md sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto flex justify-center space-x-10 font-semibold tracking-wide">
+      <a href="#patrick" class="relative px-3 py-2 rounded-full hover:bg-blue-700 hover:shadow-lg hover:text-yellow-300 transition">
+        Me
+        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-yellow-300 rounded-full transition-all group-hover:w-full"></span>
+      </a>
+      <a href="#portfolio" class="relative px-3 py-2 rounded-full hover:bg-blue-700 hover:shadow-lg hover:text-yellow-300 transition">
+        Portfolio
+        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-yellow-300 rounded-full transition-all group-hover:w-full"></span>
+      </a>
+      <a href="#life" class="relative px-3 py-2 rounded-full hover:bg-blue-700 hover:shadow-lg hover:text-yellow-300 transition">
+        Student Life
+      </a>
+      <a href="#testimonials" class="relative px-3 py-2 rounded-full hover:bg-blue-700 hover:shadow-lg hover:text-yellow-300 transition">
+        Testimonial
+      </a>
+    </div>
+  </nav>
+  
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="max-w-5xl mx-auto py-12 px-6">
+    <h2 class="text-4xl font-extrabold text-blue-900 mb-10 text-center tracking-tight">My Creative Portfolio</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 hover:scale-[1.03] cursor-pointer">
+        <img src="https://via.placeholder.com/300x200?text=Poster+Design" alt="Poster Design" class="rounded-2xl mb-5 object-cover w-full h-48">
+        <h3 class="text-2xl font-bold text-blue-800 mb-2">Poster Design</h3>
+        <p class="text-gray-700 leading-relaxed">Digital posters using Adobe Illustrator and Photoshop.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 hover:scale-[1.03] cursor-pointer">
+        <img src="https://via.placeholder.com/300x200?text=2D+Animation" alt="2D Animation" class="rounded-2xl mb-5 object-cover w-full h-48">
+        <h3 class="text-2xl font-bold text-blue-800 mb-2">2D Animation</h3>
+        <p class="text-gray-700 leading-relaxed">Short animation story created in Toon Boom Harmony.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 hover:scale-[1.03] cursor-pointer">
+        <img src="https://via.placeholder.com/300x200?text=Video+Editing" alt="Video Editing" class="rounded-2xl mb-5 object-cover w-full h-48">
+        <h3 class="text-2xl font-bold text-blue-800 mb-2">Video Editing</h3>
+        <p class="text-gray-700 leading-relaxed">Mini documentaries and reels using Premiere Pro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Student Life Section -->
+  <section id="life" class="bg-blue-100 py-14 px-8 rounded-3xl max-w-4xl mx-auto shadow-lg">
+    <h2 class="text-4xl font-extrabold text-blue-900 mb-10 text-center tracking-tight">My Life as a BMMA Student</h2>
+
+    <div class="space-y-10">
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-800 mb-2">Challenges</h3>
+        <p class="text-gray-800 leading-relaxed">Managing projects, dealing with deadlines, and staying creative every day pushed me to grow.</p>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-800 mb-2">Struggles</h3>
+        <p class="text-gray-800 leading-relaxed">Late-night editing, working in groups, and balancing theory with creative output tested my limits.</p>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-800 mb-2">Achievements</h3>
+        <p class="text-gray-800 leading-relaxed">Winning contests and completing animations gave me confidence and industry experience.</p>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-800 mb-2">Opportunities</h3>
+        <p class="text-gray-800 leading-relaxed">Internships, exhibits, and workshops helped me grow my creative network and skills.</p>
+      </div>
+
+      <div>
+        <h3 class="text-2xl font-semibold text-blue-800 mb-2">Experience</h3>
+        <p class="text-gray-800 leading-relaxed">The journey taught me not just how to design — but how to think creatively and work with others.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-14 px-8 bg-white max-w-4xl mx-auto rounded-3xl shadow-xl mt-12">
+    <h2 class="text-4xl font-extrabold text-blue-900 mb-10 text-center tracking-tight">Testimonial</h2>
+  
+    <div class="bg-blue-50 p-8 rounded-3xl shadow-inner">
+      <p class="text-lg text-gray-900 leading-relaxed">
+        As a Bachelor of Multimedia Arts student, I've had the opportunity to explore my creativity and develop my technical skills. One of the biggest challenges I've faced is balancing my artistic vision with the technical requirements of each project. There have been times when I've struggled with self-doubt and frustration, but the support of my peers and instructors has been invaluable.
+      </p>
+      <p class="text-lg text-gray-900 mt-6 leading-relaxed">
+        Despite the struggles, I've achieved some amazing things. I've had the chance to work on projects that showcase my skills in animation, graphic design, and video production. I've also had the opportunity to collaborate with other students and learn from their experiences.
+      </p>
+      <p class="text-lg text-gray-900 mt-6 leading-relaxed">
+        One of the most rewarding experiences has been seeing my projects come to life. Whether it's an animated short film or a graphic design piece, there's nothing quite like seeing my ideas take shape.
+      </p>
+      <p class="text-lg text-gray-900 mt-6 leading-relaxed">
+        The opportunities available to me as a BMA student have been incredible. I've been able to attend industry events, network with professionals in the field, and even land internships that have given me hands-on experience.
+      </p>
+      <p class="text-lg text-gray-900 mt-6 leading-relaxed">
+        Overall, my experience as a BMA student has been challenging, but incredibly rewarding. I've learned so much about myself and my craft, and I'm excited to see where my passion for multimedia arts takes me.
+      </p>
+      <p class="text-right font-semibold text-blue-700 mt-8">–James Patrick Ribano</p>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-14 rounded-t-3xl shadow-inner">
+    <p class="text-lg font-light">&copy; 2025 James Patrick Ribano Portfolio. Designed by a Proud BMMA Student.</p>
+  </footer>
+
+  <script>
+    function smoothScroll(target, duration) {
+      const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - 60; // 60 = navbar height offset
+      const startPosition = window.pageYOffset;
+      const distance = targetPosition - startPosition;
+      let startTime = null;
+  
+      function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      }
+  
+      // Ease function for smooth effect (easeInOutQuad)
+      function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+      }
+  
+      requestAnimationFrame(animation);
+    }
+  
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetID = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetID);
+        if (targetSection) {
+          smoothScroll(targetSection, 1000); // 1000 = duration in ms, change to 1500 or 2000 to slow down more
+        }
+      });
+    });
+  </script>
+  
+
+</body>
+</html>
