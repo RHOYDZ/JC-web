@@ -38,47 +38,47 @@
         }
       </style>
       
-      <header id="patrick" class="bg-blue-900 text-gray-100 py-12 px-6 shadow-xl rounded-b-3xl">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+      <header id="patrick" class="bg-blue-900 text-gray-100 py-12 px-4 sm:px-6 shadow-xl rounded-b-3xl">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 sm:gap-16">
           
           <!-- Profile Picture -->
           <img src="pic.jpg" alt="Profile Picture"
-            class="w-80 h-80 rounded-full shadow-2xl object-cover transform hover:-translate-y-2 transition-transform duration-500" />
+            class="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-full shadow-2xl object-cover transform hover:-translate-y-2 transition-transform duration-500" />
           
           <!-- Text Content -->
-          <div class="text-center md:text-left">
-            <h1 class="text-5xl font-extrabold leading-tight tracking-wide drop-shadow-lg">
+          <div class="text-center md:text-left px-2">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-wide drop-shadow-lg">
               James Patrick Ribano
             </h1>
-            <p class="text-xl mt-3 font-light tracking-wide">
+            <p class="text-lg sm:text-xl mt-3 font-light tracking-wide">
               Creativity. Passion. Multimedia in Action.
             </p>
-            <p class="mt-8 text-lg leading-relaxed max-w-xl font-light mx-auto md:mx-0">
+            <p class="mt-6 sm:mt-8 text-base sm:text-lg leading-relaxed max-w-md sm:max-w-xl font-light mx-auto md:mx-0">
               Hi, I'm James Patrick Ribano, a creative and passionate student pursuing a Bachelor of Multimedia Arts.
               I'm excited to explore the intersection of art, technology, and storytelling through various mediums
               like animation, graphic design, and video production. With a keen eye for detail and a love for innovation,
               I'm eager to develop my skills and bring imaginative ideas to life.
             </p>
       
-            <!-- Centered Horizontal Skills List -->
-            <ul class="mt-10 flex justify-center md:justify-start flex-wrap gap-6 px-2">
-              <li class="flame-highlight bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold shadow-md whitespace-nowrap">
+            <!-- Skills List -->
+            <ul class="mt-8 sm:mt-10 flex justify-center md:justify-start flex-wrap gap-4 sm:gap-6 px-2">
+              <li class=" flame-highlight  bg-yellow-400 text-gray-900 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold shadow-md whitespace-nowrap text-sm sm:text-base">
                 Motion Graphics
               </li>
-              <li class="flame-highlight bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold shadow-md whitespace-nowrap">
+              <li class="flame-highlight  bg-yellow-400 text-gray-900 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold shadow-md whitespace-nowrap text-sm sm:text-base">
                 UX/UI Design
               </li>
-              <li class="flame-highlight bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold shadow-md whitespace-nowrap">
+              <li class="flame-highlight  bg-yellow-400 text-gray-900 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold shadow-md whitespace-nowrap text-sm sm:text-base">
                 Digital Marketing Basics
               </li>
-              <li class="flame-highlight bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold shadow-md whitespace-nowrap">
+              <li class="flame-highlight bg-yellow-400 text-gray-900 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold shadow-md whitespace-nowrap text-sm sm:text-base">
                 Social Media Content Creation
               </li>
             </ul>
-      
           </div>
         </div>
       </header>
+      
       
       
       
@@ -102,8 +102,8 @@
   </nav>
   
 
-<!-- Portfolio Section -->
-<div id="portfolio" class="flex flex-col items-center gap-10">
+  <!-- Portfolio Section -->
+  <div id="portfolio" class="flex flex-col items-center gap-10 py-10">
 
     <!-- Top Row - 3 Cards -->
     <div class="flex flex-wrap justify-center gap-8">
@@ -113,14 +113,14 @@
         <h3 class="text-2xl font-bold text-blue-800 mb-2">3D Modeling</h3>
         <p class="text-gray-700 leading-relaxed">Creating detailed 3D models using Blender and Maya.</p>
       </div>
-  
+
       <!-- Character Illustration -->
       <div class="w-[280px] bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition hover:scale-[1.03] cursor-pointer" data-gallery="character-illustration">
         <img src="charac/1.jpg" alt="Character Illustration" class="rounded-2xl mb-5 object-cover w-full h-44">
         <h3 class="text-2xl font-bold text-blue-800 mb-2">Character Illustration</h3>
         <p class="text-gray-700 leading-relaxed">Hand-drawn and digital character art with vibrant styles.</p>
       </div>
-  
+
       <!-- 2D/3D Animation -->
       <div class="w-[280px] bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition hover:scale-[1.03] cursor-pointer" data-gallery="2d-3d-animation">
         <img src="2-3d/1.jpg" alt="2D/3D Animation" class="rounded-2xl mb-5 object-cover w-full h-44">
@@ -128,7 +128,7 @@
         <p class="text-gray-700 leading-relaxed">Animated shorts and motion graphics using Toon Boom and Blender.</p>
       </div>
     </div>
-  
+
     <!-- Bottom Row - 2 Cards Centered -->
     <div class="flex justify-center gap-8">
       <!-- Color Grading -->
@@ -137,7 +137,7 @@
         <h3 class="text-2xl font-bold text-blue-800 mb-2">Color Grading</h3>
         <p class="text-gray-700 leading-relaxed">Enhancing video mood and tone with professional color grading.</p>
       </div>
-  
+
       <!-- Story Book -->
       <div class="w-[280px] bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition hover:scale-[1.03] cursor-pointer" data-gallery="story-book">
         <img src="book/1.jpg" alt="Story Book" class="rounded-2xl mb-5 object-cover w-full h-44">
@@ -145,12 +145,10 @@
         <p class="text-gray-700 leading-relaxed">Illustrated storybooks combining art and narrative design.</p>
       </div>
     </div>
-  
   </div>
-  
-  
-<!-- Modal Overlay -->
-<div id="modal" class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center p-4 hidden z-50">
+
+  <!-- Modal Overlay -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center p-4 hidden z-50">
     <div class="bg-white rounded-xl max-w-6xl w-full max-h-[85vh] overflow-auto p-6 relative shadow-lg">
       <button id="modalClose" class="absolute top-3 right-3 text-gray-700 hover:text-black text-3xl font-bold">&times;</button>
       <div id="modalContent" class="flex flex-wrap justify-center gap-4">
@@ -158,10 +156,9 @@
       </div>
     </div>
   </div>
-  
-  
+
+  <!-- JavaScript -->
   <script>
-    // Gallery images data (replace URLs with your real images)
     const galleries = {
       "3d-modeling": [
         "3d modeling/1.jpg",
@@ -169,77 +166,64 @@
         "3d modeling/3.jpg"
       ],
       "character-illustration": [
-      "../charac/1.jpg",
-      "../charac/2.jpg",
-    ],
-    "2d-3d-animation": [
-      "2-3d/1.jpg",
-      "2-3d/2.jpg",
-      "2-3d/3.jpg",
-    ],
-    "color-grading": [
-      "color/1.jpg",
+        "charac/1.jpg",
+        "charac/2.jpg"
+      ],
+      "2d-3d-animation": [
+        "2-3d/1.jpg",
+        "2-3d/2.jpg",
+        "2-3d/3.jpg"
+      ],
+      "color-grading": [
+        "color/1.jpg",
         "color/2.jpg",
         "color/3.jpg"
-    ],
-    "story-book": [
-      "book/1.jpg",
-      "book/2.jpg",
+      ],
+      "story-book": [
+        "book/1.jpg",
+        "book/2.jpg",
         "book/3.jpg",
-        "book/4.jpg"
-        ,"book/5.jpg",
-        ,"book/6.jpg",
-        ,"book/7.jpg",
-        ,"book/8.jpg",
-        ,"book/9.jpg",
-        ,"book/10.jpg",
-
-    ]
+        "book/4.jpg",
+        "book/5.jpg",
+        "book/6.jpg",
+        "book/7.jpg",
+        "book/8.jpg",
+        "book/9.jpg",
+        "book/10.jpg"
+      ]
     };
-  
+
     const modal = document.getElementById('modal');
     const modalContent = document.getElementById('modalContent');
     const modalClose = document.getElementById('modalClose');
-  
-    // Open modal and load images based on clicked card
+
     document.querySelectorAll('[data-gallery]').forEach(card => {
       card.addEventListener('click', () => {
         const galleryName = card.getAttribute('data-gallery');
         const images = galleries[galleryName] || [];
-  
-        // Clear previous images
+
         modalContent.innerHTML = '';
-  
-        // Add images to modal
         images.forEach(src => {
           const img = document.createElement('img');
           img.src = src;
           img.alt = galleryName;
-          img.className = "rounded-lg w-full object-cover";
+          img.className = "rounded-lg w-full max-w-sm object-cover";
           modalContent.appendChild(img);
         });
-  
-        // Show modal
+
         modal.classList.remove('hidden');
-        // Optional: disable scroll on body
         document.body.style.overflow = 'hidden';
       });
     });
-  
-    // Close modal function
+
     function closeModal() {
       modal.classList.add('hidden');
       document.body.style.overflow = '';
     }
-  
-    // Close modal on close button click
+
     modalClose.addEventListener('click', closeModal);
-  
-    // Close modal on clicking outside modal content
     modal.addEventListener('click', e => {
-      if (e.target === modal) {
-        closeModal();
-      }
+      if (e.target === modal) closeModal();
     });
   </script>
   
